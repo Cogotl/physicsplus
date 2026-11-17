@@ -1,0 +1,22 @@
+{
+  "name": "physicsplus",
+  "version": "1.0.0",
+  "description": "Complex and performant Physics Extension for TurboWarp",
+  "main": "extension.js",
+  "scripts": {
+    "package": "python3 package.py",
+    "build": "python3 package.py"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^29.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "rollup": "^4.68.4"
+  },
+  "dependencies": {
+    "matter-js": "^0.20.0"
+  }
+}
